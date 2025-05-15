@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effe Healthcare - Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background: #3a7bd5;
+            color: white;
+            padding: 1em 2em;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            margin: 0 1em;
+            padding: 1em;
+            text-decoration: none;
+            color: #333;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2em;
+            padding: 2em;
+        }
+
+        section {
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background: #f9f9f9;
+        }
+
+        h1, h2 {
+            font-family: 'Georgia', serif;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background: #3a7bd5;
+            color: white;
+        }
+
+        form input, form textarea {
+            width: calc(100% - 2em);
+            padding: 1em;
+            margin: 0.5em 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            background: #3a7bd5;
+            color: white;
+            border: none;
+            padding: 1em 2em;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .social-icons a {
+            color: #3a7bd5;
+            margin: 0 0.5em;
+            text-decoration: none;
+        }
+
+        @media (min-width: 768px) {
+            main {
+                grid-template-columns: 1fr 2fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us - Effe Healthcare</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">FAQ</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Contact Information</h2>
+            <p>We are here to assist you with all your healthcare needs. Reach out to us via any of the methods below and our team will respond promptly.</p>
+            <ul>
+                <li><i class="fas fa-phone"></i> Phone: +1 234 567 890</li>
+                <li><i class="fas fa-envelope"></i> Email: support@effehealthcare.com</li>
+                <li><i class="fas fa-map-marker-alt"></i> Address: 123 Health St, Wellness City, HW 56789</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact Form</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section>
+            <h2>Follow Us</h2>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Effe Healthcare. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
